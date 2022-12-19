@@ -21,8 +21,7 @@ including all of its default components.
 
 Don't worry.  
 You can just do Next, Next, Next... from setup program.  
-If you don't install “Desktop development with C++” workload, show install popup your first solution files is opened.  
-then you can install.
+If you have not installed the “Desktop development with C++” workload, you can see the installation pop-up when the first solution file is opened.
 
 ***Note: Visual Studio is different than Visual Studio Code.***
 
