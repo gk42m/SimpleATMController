@@ -1,4 +1,4 @@
-@startuml
+@startuml dependency
 interface IATMController
 interface IAuthenticationDevice
 interface IAuthenticationDeviceReader
