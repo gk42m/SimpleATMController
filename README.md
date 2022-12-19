@@ -53,4 +53,4 @@ I use Catch2 Framework and Written in BDD style Tests.
 
 ## *. Class Diagram
 
-![uml](http://www.plantuml.com/plantuml/proxy?src=https://github.com/gk42m/SimpleATMController/blob/master/uml.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/gk42m/SimpleATMController/blob/master/uml.puml)
