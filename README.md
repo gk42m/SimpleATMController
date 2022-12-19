@@ -1,6 +1,6 @@
 # How to build
 
-## 1. Windows 11
+## 1. Windows 10 or higher
 
 I developed Windows environment. I checked the operation(Build/Run Tests) only in Windows environment.
 
@@ -27,25 +27,21 @@ I manage dependency library using vcpkg.
 
 > git clone <https://github.com/Microsoft/vcpkg.git>  
 > cd vcpkg  
-> ./bootstrap-vcpkg.sh  
-> ./vcpkg integrate install  
+> bootstrap-vcpkg.bat
+> vcpkg integrate install  
 
 ## 5. Clone project
 
 > git clone <https://github.com/gk42m/SimpleATMController.git>  
+> cd SimpleATMController
 
 ## 6. Build project
-
-The main() function is in main.cpp file.
 
 > 1. open SimpleATMController.sln file  
 > 2. check solution configurations is Debug or Release  
 > 3. menu -> Debug -> start without Debugging(Ctrl + F5)
 
 ## 7. Run Tests
-
-Test cases are written in test.cpp file.  
-I use Catch2 Framework and Written in BDD style Tests.
 
 > 1. open SimpleATMController.sln file  
 > 2. check solution configurations is RunTest  
