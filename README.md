@@ -44,7 +44,8 @@ The main() function is in main.cpp file.
 
 ## 7. Run Tests
 
-Test cases are written in test.cpp file.
+Test cases are written in test.cpp file.  
+I use Catch2 Framework and Written in BDD style Tests.
 
 > 1. open SimpleATMController.sln file  
 > 2. check solution configurations is RunTest  

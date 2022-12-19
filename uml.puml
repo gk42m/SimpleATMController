@@ -1,0 +1,26 @@
+@startuml
+interface IATMController
+interface IAuthenticationDevice
+interface IAuthenticationDeviceReader
+interface ICashBin
+interface IBankService
+class ATMController
+class CheckCard
+class CheckCardReader
+class CashBin
+class MockBank
+class ATMView
+
+IATMController <|-- ATMController
+IAuthenticationDevice <|-- CheckCard
+IAuthenticationDeviceReader <|-- CheckCardReader
+ICashBin <|-- CashBin
+IBankService <|-- MockBank
+
+ATMView ..> IATMController
+ATMController ..> IAuthenticationDeviceReader
+ATMController ..> ICashBin
+ATMController ..> IBankService
+
+IATMController ..> IAuthenticationDevice
+@enduml
