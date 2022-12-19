@@ -17,7 +17,12 @@ You can download community Edition.
 [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
 When installing Visual Studio, you need the “Desktop development with C++” workload installed for building windows,  
-including all of its default components.
+including all of its default components.  
+
+Don't worry.  
+You can just do Next, Next, Next... from setup program.  
+If you don't install “Desktop development with C++” workload, show install popup your first solution files is opened.  
+then you can install.
 
 ***Note: Visual Studio is different than Visual Studio Code.***
 
