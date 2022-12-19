@@ -1,0 +1,7 @@
+.vs
+vcpkg_installed
+[Dd]ebug/
+[Rr]elease/
+[Rr]unTest/
+x64/
+x86/

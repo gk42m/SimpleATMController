@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{322db394-3973-424a-8b4f-b6e7a0806725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\model">
+      <UniqueIdentifier>{7f100911-368a-4ce1-9b1f-7e1650303679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller">
+      <UniqueIdentifier>{ef936fbd-6b8e-43de-91f2-5a742b03d5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view">
+      <UniqueIdentifier>{7596dcdc-f748-4bb1-9448-5126b8fc33e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\deps">
+      <UniqueIdentifier>{e45e2316-0d37-4c30-abe2-bd3173315ac2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMController.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMView.cpp">
+      <Filter>src\view</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationDevice.cpp">
+      <Filter>src\deps</Filter>
+    </ClCompile>
+    <ClCompile Include="BankService.cpp">
+      <Filter>src\deps</Filter>
+    </ClCompile>
+    <ClCompile Include="CashBin.cpp">
+      <Filter>src\deps</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vcpkg.json" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATMController.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="IBankService.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="IAuthenticationDevice.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="BankAccount.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ATMView.h">
+      <Filter>src\view</Filter>
+    </ClInclude>
+    <ClInclude Include="IATMController.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationDevice.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="BankService.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="CashBin.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="ICashBin.h">
+      <Filter>src\deps</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
