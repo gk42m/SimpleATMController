@@ -50,3 +50,7 @@ I use Catch2 Framework and Written in BDD style Tests.
 > 1. open SimpleATMController.sln file  
 > 2. check solution configurations is RunTest  
 > 3. menu -> Debug -> start without Debugging(Ctrl + F5)
+
+## *. Class Diagram
+
+![uml](http://www.plantuml.com/plantuml/proxy?src=https://github.com/gk42m/SimpleATMController/blob/master/uml.puml)
